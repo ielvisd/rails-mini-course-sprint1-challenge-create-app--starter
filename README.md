@@ -37,7 +37,7 @@ You will also create a `AppStats` class with numerous methods that you can use f
 
 These are the steps you should take in order to create your MVP:
 
-1. Create a new rails application called `awesome_blog`.
+1. Create a new rails application called `awesome_blog`. ✅
 2. Scaffold a posts resource that has the following attributes:
    - title:string
    - body:text
