@@ -39,9 +39,9 @@ These are the steps you should take in order to create your MVP:
 
 1. Create a new rails application called `awesome_blog`. ✅
 2. Scaffold a posts resource that has the following attributes:
-   - title:string
-   - body:text
-   - published_at:datetime
+   - title:string ✅
+   - body:text ✅
+   - published_at:datetime ✅
 3. Scaffold a quotes resource that has the following attributes:
    - body:text
    - published_at:datetime
