@@ -43,9 +43,9 @@ These are the steps you should take in order to create your MVP:
    - body:text ✅
    - published_at:datetime ✅
 3. Scaffold a quotes resource that has the following attributes:
-   - body:text
-   - published_at:datetime
-4. Run the migration command to update the database with the new resources.
+   - body:text ✅
+   - published_at:datetime ✅
+4. Run the migration command to update the database with the new resources. ✅
 5. Run the rails server and use the appropriate url endpoints to add some `posts` and `quotes` to your application
 6. Create a single Module called WordCounter in the `app/models` folder.
 7. Write a method in the module named `word_count` that counts the total number of words in the `body` attribute of any file it is mixed into. If the body is `nil`, you should return `0`.
