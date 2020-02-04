@@ -1,3 +1,3 @@
 class Post < ApplicationRecord
-  include WordCounter
+  include WordCounter, Publishable
 end

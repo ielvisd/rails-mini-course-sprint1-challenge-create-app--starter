@@ -1,3 +1,3 @@
 class Quote < ApplicationRecord
-  include WordCounter
+  include WordCounter, Publishable
 end
