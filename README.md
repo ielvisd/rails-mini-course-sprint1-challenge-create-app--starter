@@ -57,7 +57,7 @@ These are the steps you should take in order to create your MVP:
     3. `posts_word_count`: returns the word count of all posts in one sum ✅
     4. `quotes_word_count`: returns the word count of all quotes in one sum ✅
     5. `total_count`: returs the total of all posts and quotes in one sum ✅
-    6. `total_word_count`: returns the total of all words in posts and quotes in one sum
+    6. `total_word_count`: returns the total of all words in posts and quotes in one sum ✅
 11. Utilize the rails console to instantiate the `AppStats` class and use it to test all of the statistical methods you created. ✅
 
 ## Stretch Problems

@@ -31,4 +31,8 @@ class AppStats
     end
     return total_words_in_quotes
   end
+
+  def total_word_count
+    return posts_word_count + quotes_word_count
+  end
 end
