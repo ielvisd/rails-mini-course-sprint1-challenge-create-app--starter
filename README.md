@@ -50,15 +50,15 @@ These are the steps you should take in order to create your MVP:
 6. Create a single Module called WordCounter in the `app/models` folder. ✅
 7. Write a method in the module named `word_count` that counts the total number of words in the `body` attribute of any file it is mixed into. If the body is `nil`, you should return `0`. ✅
 8. The `Quote` and `Post` model files shoulde `include` the `WordCounter` module. ✅
-9. Create a class called `AppStats` in the `app/models` directory. Create two instance variables--one for `posts` and one for `quotes`. Make sure to set them up with the `attr_reader` method so they can be accessed externally but not changed externally. Use the `initialize` method to store all the posts in the posts instance variable and all the quotes in the quotes instance variable.
+9. Create a class called `AppStats` in the `app/models` directory. ✅ Create two instance variables--one for `posts` and one for `quotes`. ✅ Make sure to set them up with the `attr_reader` method so they can be accessed externally but not changed externally. ✅ Use the `initialize` method to store all the posts in the posts instance variable and all the quotes in the quotes instance variable. ✅
 10. Create the following methods in the `AppStats` class:
-    1. `posts_count`: returns the number of posts
-    2. `quotes_count`: returns the number of quotes
-    3. `posts_word_count`: returns the word count of all posts in one sum
-    4. `quotes_word_count`: returns the word count of all quotes in one sum
-    5. `total_count`: returs the total of all posts and quotes in one sum
+    1. `posts_count`: returns the number of posts ✅
+    2. `quotes_count`: returns the number of quotes ✅
+    3. `posts_word_count`: returns the word count of all posts in one sum ✅
+    4. `quotes_word_count`: returns the word count of all quotes in one sum ✅
+    5. `total_count`: returs the total of all posts and quotes in one sum ✅
     6. `total_word_count`: returns the total of all words in posts and quotes in one sum
-11. Utilize the rails console to instantiate the `AppStats` class and use it to test all of the statistical methods you created.
+11. Utilize the rails console to instantiate the `AppStats` class and use it to test all of the statistical methods you created. ✅
 
 ## Stretch Problems
 
